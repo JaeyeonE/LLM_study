@@ -5,9 +5,11 @@ Colab link : https://colab.research.google.com/drive/1DcJJFBorxjWvuEelN819TP8ZJz
 
 
 ## MNLI 분류 모델 프로젝트
-###프로젝트 개요
+### 프로젝트 개요
 본 프로젝트는 자연어 처리(NLP) 작업 중 하나인 MNLI(Multi-Genre Natural Language Inference) 분류 문제를 해결하기 위한 모델을 HuggingFace 라이브러리를 활용하여 구현한 것입니다.
-MNLI 작업 설명
+
+
+### MNLI 작업 설명
 
 * 입력: premise(전제)와 hypothesis(가설) 두 문장
 * 출력: 두 문장 간의 논리적 관계를 다음 세 클래스로 분류
