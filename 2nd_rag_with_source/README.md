@@ -50,29 +50,7 @@ url = "https://your-target-website.com"
    - 검색된 컨텍스트와 질문을 바탕으로 응답 생성
 
 ## Workflow Diagram
-graph TD
-    A[웹 크롤링] --> B[텍스트 추출]
-    A --> C[이미지 URL 추출]
-    C --> D[Google Vision API OCR]
-    D --> E[이미지 텍스트 추출]
-    B --> F[문서 통합]
-    E --> F
-    G[UnstructuredLoader 처리] --> F
-    F --> H[문서 분할]
-    H --> I[텍스트 임베딩]
-    I --> J[FAISS 벡터 저장소]
-    J --> K[검색기 생성]
-    L[사용자 질문] --> M[관련 문서 검색]
-    K --> M
-    M --> N[LLM에 문맥 제공]
-    N --> O[최종 응답 생성]
-    
-    style A fill:#f9d5e5,stroke:#333,stroke-width:1px
-    style D fill:#eeac99,stroke:#333,stroke-width:1px
-    style G fill:#eeac99,stroke:#333,stroke-width:1px
-    style F fill:#c6def1,stroke:#333,stroke-width:1px
-    style J fill:#dbcdf0,stroke:#333,stroke-width:1px
-    style O fill:#98d8c8,stroke:#333,stroke-width:1px
+![Workflow Diagram](./workflow%20diagram.png)
 
 ## 주의사항
 
