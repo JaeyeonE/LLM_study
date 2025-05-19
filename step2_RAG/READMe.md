@@ -12,6 +12,23 @@
 - **벡터 검색**: FAISS를 사용한 효율적인 유사도 검색
 - **자연어 응답 생성**: OpenAI의 GPT 모델을 활용한 질의응답
 
+## Tech Stack
+
+| Category                    | Name / Library                                      | Description |
+|----------------------------|-----------------------------------------------------|-------------|
+| **Programming Language**    | Python 3.10+                                        | - |
+| **Frameworks & Libraries** | LangChain (`langchain`, `langchain-openai`, `langchain-community`, `langchain-text-splitters`) | LLM 기반 문서 처리, 벡터 검색, Prompt 템플릿 구성 등 |
+|                            | BeautifulSoup4 (`bs4`)                              | HTML 웹 페이지에서 콘텐츠 및 이미지 URL 크롤링 |
+|                            | Unstructured                                        | 웹 문서의 구조적 콘텐츠 추출용 |
+|                            | FAISS                                               | 문서 임베딩 기반 벡터 검색 |
+|                            | Google Cloud Vision API                             | 이미지에서 텍스트를 추출하는 OCR 처리 |
+| **LLM & Embedding Providers** | OpenAI GPT-4o-mini (`ChatOpenAI`)                  | 사용자 질문에 대한 응답 생성 |
+|                            | OpenAIEmbeddings                                    | 문서 임베딩 생성 |
+| **Utilities**              | `dotenv`                                            | `.env` 파일을 통한 환경변수 관리 |
+|                            | `requests`                                          | 웹 페이지 및 이미지 요청 처리 |
+
+
+
 ## 사용 방법
 
 1. API 키 설정:

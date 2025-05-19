@@ -1,8 +1,5 @@
 # LLM_study
 
-Colab link : https://colab.research.google.com/drive/1DcJJFBorxjWvuEelN819TP8ZJzUTvFlk?usp=sharing
-
-
 
 ## MNLI 분류 모델 프로젝트
 ### 프로젝트 개요

@@ -19,11 +19,22 @@
 
 ## 📚 실습 목록
 
-| 회차 | 주제 | 정리 링크 |
-|------|------|-----------|
-| Step 1 | MNLI 분류 모델 구현 (HuggingFace 활용) | [Colab 노트북](#) |
-| Step 2 | 블록 요약 RAG 파이프라인 (LangChain + OpenAI API) | [2nd_rag_with_source](https://github.com/JaeyeonE/LLM_study/blob/main/2nd_rag_with_source/2nd_rag_with_source.ipynb) |
-| Step 3 | 프롬프트 엔지니어링 - 수능 국어문제 GPT로 풀어보기 | 진행중 |
+| 단계 | 주제 | 목표 | 추가 정리 링크 | 
+|------|------|------|
+| Step 1 | MNLI 파인튜닝 | HuggingFace Trainer를 사용하여 MNLI 데이터셋 기반 문장 분류 모델 구축 | [Transformer 정리](https://velog.io/@ght010522/Transformer-%EC%A0%95%EB%A6%AC) |
+| Step 2 | Retrieval-Augmented Generation | LangChain, ChromaDB, OpenAI API, Google vision API를 활용한 이미지 포함 RAG 파이프라인 설계 및 구현 | [WebBaseLoader vs UnstructuredLoader](https://velog.io/@ght010522/WebBaseLoader-vs-UnstructuredLoader) |
+| Step 3 | 프롬프트 엔지니어링 | 다양한 프롬프트 전략을 적용하여 LLM 응답 품질 실험 및 비교 분석 | 진행중 |
+
+## 🛠 사용 기술 스택 | Tech Stack
+
+| 범주 | 기술 |
+|------|------|
+| LLM 인터페이스 | OpenAI API (GPT-4), HuggingFace Transformers |
+| 파이프라인 구성 | LangChain |
+| 벡터 검색 | FAISS |
+| 모델 파인튜닝 | PyTorch, HuggingFace Datasets, HuggingFace Trainer |
+| 환경 구성 및 실행 | Python, Jupyter Notebook |
+| 문서화 및 기록 | Markdown, GitHub, Velog |
 
 ## 🚀 앞으로의 계획
 
