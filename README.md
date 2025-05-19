@@ -22,7 +22,7 @@
 | 회차 | 주제 | 정리 링크 |
 |------|------|-----------|
 | Step 1 | MNLI 분류 모델 구현 (HuggingFace 활용) | [Colab 노트북](#) |
-| Step 2 | 블록 요약 RAG 파이프라인 (LangChain + OpenAI API) | [https://github.com/JaeyeonE/LLM_study/blob/main/2nd_rag_with_source/2nd_rag_with_source.ipynb](#) |
+| Step 2 | 블록 요약 RAG 파이프라인 (LangChain + OpenAI API) | [2nd_rag_with_source](https://github.com/JaeyeonE/LLM_study/blob/main/2nd_rag_with_source/2nd_rag_with_source.ipynb) |
 | Step 3 | 프롬프트 엔지니어링 - 수능 국어문제 GPT로 풀어보기 | 진행중 |
 
 ## 🚀 앞으로의 계획
