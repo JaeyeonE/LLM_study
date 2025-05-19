@@ -20,10 +20,11 @@
 ## 📚 실습 목록
 
 | 단계 | 주제 | 목표 | 추가 정리 링크 | 
-|------|------|------|
+|------|------|------|----------------|
 | Step 1 | MNLI 파인튜닝 | HuggingFace Trainer를 사용하여 MNLI 데이터셋 기반 문장 분류 모델 구축 | [Transformer 정리](https://velog.io/@ght010522/Transformer-%EC%A0%95%EB%A6%AC) |
 | Step 2 | Retrieval-Augmented Generation | LangChain, ChromaDB, OpenAI API, Google vision API를 활용한 이미지 포함 RAG 파이프라인 설계 및 구현 | [WebBaseLoader vs UnstructuredLoader](https://velog.io/@ght010522/WebBaseLoader-vs-UnstructuredLoader) |
 | Step 3 | 프롬프트 엔지니어링 | 다양한 프롬프트 전략을 적용하여 LLM 응답 품질 실험 및 비교 분석 | 진행중 |
+
 
 ## 🛠 사용 기술 스택 | Tech Stack
 

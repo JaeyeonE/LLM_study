@@ -4,6 +4,8 @@
 
 이 프로젝트는 웹 크롤링과 이미지 OCR을 결합한 고급 RAG(Retrieval-Augmented Generation) 시스템을 구현합니다. 특정 웹페이지의 텍스트와 이미지 내 텍스트를 추출하고, 이를 벡터 저장소에 저장하여 질의응답 시스템을 구축합니다.
 
+**[WebBaseLoader vs UnstructuredLoader 추가 정리](https://velog.io/@ght010522/WebBaseLoader-vs-UnstructuredLoader) **
+
 ## 주요 기능
 
 - **웹 크롤링**: BeautifulSoup을 사용한 웹 컨텐츠 및 이미지 URL 추출
